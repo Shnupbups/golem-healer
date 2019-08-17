@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "golemhealer",
+  "version": "1.0.0",
+
+  "name": "Golem Healer",
+  "description": "Lets you heal Iron Golems with Iron Ingots. Idea by bombbery.",
+  "authors": [
+    "Shnupbups"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/golem-healer",
+    "sources": "https://github.com/Shnupbups/golem-healer",
+    "issues": "https://github.com/Shnupbups/golem-healer/issues"
+  },
+
+  "license": "LGPLv3",
+  "icon": "assets/golemhealer/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shnupbups.golemhealer.GolemHealer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
